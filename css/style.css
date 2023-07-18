@@ -73,13 +73,43 @@ body {
 
 .logo {
 
-    width: 62px;
+    width: 72px;
 
 }
 
-.margin-menu {
+.margin-right {
 
     margin-right: 68px;
+}
+
+.margin-menu {}
+
+
+.contentBlue:hover {
+
+    border-top: 2px solid;
+    border-color: var(--main-color);
+    color: var(--main-color);
+
+}
+
+/* Form */
+
+.formulaire {
+
+    display: flex;
+    align-items: center;
+}
+
+.formulaire input {
+
+    height: 60px;
+}
+
+.rounded {
+
+    border: 3px solid;
+    border-radius: 20px;
 }
 
 /****** Hebergements And Populaires ***********/
@@ -99,6 +129,8 @@ body {
 .hebergements {
     width: 65%;
 }
+
+.hebergements-cards {}
 
 /****** Populaires ***********/
 .populaires {

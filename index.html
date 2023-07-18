@@ -21,27 +21,68 @@
                 <img src="./images/logo/Booki.png" alt="Logo Booki" class="logo">
             </div>
             <div class="directionRow">
-                <p class="margin-menu">
-                    Hébergements
-                </p>
-                <p>
-                    Activités
-                </p>
+                <div class="margin-right margin-menu contentBlue">
+                    <p>
+                        Hébergements
+                    </p>
+                </div>
+                <div class="margin-menu contentBlue">
+                    <p>
+                        Activités
+                    </p>
+                </div>
             </div>
         </header>
         <main>
+
+            <!-- Formulaire -->
+
             <section>
                 <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
                 <p>En plein centre-ville ou en pleine nature</p>
-                <form method="get" action="">
-                    <label for="lieu">Lieu de rêve</label> : <input type="text" name="lieu" id="lieu">
-                    <input type="submit" value="Rechercher">
+                <form method="get" action="" class="formulaire">
+                    <div class="rounded">
+                        <span class="fa-solid fa-location-dot" style="color: #000000;"></span>
+                        <input type="text" name="lieu" id="lieu" placeholder="Lieu de rêve">
+                        <input type="submit" value="Rechercher">
+                    </div>
                 </form>
             </section>
+
+            <!-- Section hebergements -->
+
             <div class="hebergements-and-populaires">
                 <section class="hebergements">
+                    <h2 class="section-title">Hébergements à Marseille</h2>
+                    <div class="hebergements-cards">
+                        <article class="card">
+                            <img src="./images/hebergements/fred-kleber.jpg" alt="">
 
+
+                        </article>
+                        <article class="card">
+
+                        </article>
+                        <article class="card">
+
+                        </article>
+                        <article class="card">
+
+                        </article>
+                        <article class="card">
+
+                        </article>
+                        <article class="card">
+
+                        </article>
+                        <article class="card">
+
+                        </article>
+                    </div>
                 </section>
+
+                <!-- Section populaires déja ecrite -->
+
                 <section class="populaires">
                     <div class="populaires-title">
                         <h2 class="section-title">Les plus populaires</h2>
@@ -104,6 +145,9 @@
                         </article>
                     </div>
                 </section>
+
+                <!-- Fin section deja ecrite -->
+
             </div>
         </main>
         <footer></footer>

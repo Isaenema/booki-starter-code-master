@@ -25,12 +25,6 @@ body {
     box-sizing: border-box;
 }
 
-.form-title {
-
-    margin-bottom: 0;
-    font-size: 22px;
-}
-
 .section-title {
     margin: 0;
     font-size: 22px;
@@ -61,7 +55,9 @@ body {
 
 .directionRow {
 
-    display: flex
+    display: flex;
+    flex-direction: row;
+
 }
 
 .directionRowBetween {
@@ -91,9 +87,6 @@ body {
     margin-right: 68px;
 }
 
-.margin-menu {}
-
-
 .contentBlue:hover {
 
     border-top: 2px solid;
@@ -108,18 +101,35 @@ body {
 
     display: flex;
     align-items: center;
+    margin-bottom: 34px;
+    margin-top: 36px;
+}
+
+
+.form-title {
+    margin-top: 40px;
+    margin-bottom: 0;
+    font-size: 22px;
+}
+
+.form-subtitle {
+
+    margin-top: 8px;
 }
 
 .formulaire input {
 
     font-weight: bold;
     font-size: 18px;
+    display: flex;
+    justify-content: center;
 }
 
 .input-icons i {
 
     position: absolute;
     color: black;
+    font-size: 18px;
 
 }
 
@@ -147,6 +157,7 @@ body {
     height: 43px;
     border: solid 2px;
     border-color: var(--main-bg-color);
+
 }
 
 .inputLocalisation {
@@ -164,18 +175,67 @@ body {
 
 .filters button {
 
-    width: 173px;
     height: 50px;
     margin-left: 16px;
+    padding: 4px 19px;
+    font-weight: bold;
     background-color: white;
-    border: solid 3px;
-    border-color: var(--main-bg-color);
+    border: solid 2px;
+    border-color: #D9D9D9;
     border-radius: 24px;
+    display: flex;
+    align-items: center;
 }
 
-.filters content {
+.filters p {
 
     font-weight: bold;
+    font-size: 17px;
+}
+
+.filters i {
+
+    font-size: 22px;
+    margin-right: 8px;
+}
+
+.buttonHighlight:hover {
+    background-color: var(--filter-bg-color);
+}
+
+/* infos logements */
+
+.infos-logement {
+
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+    margin-bottom: 14px;
+}
+
+.infos-logement p {
+
+    margin-left: 8px;
+}
+
+.infos-logement button {
+
+    height: 24px;
+    width: 24px;
+    padding: 4px;
+    font-weight: bold;
+    background-color: white;
+    border: solid 1px;
+    border-color: #D9D9D9;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.infos-logement i {
+
+    position: absolute
 }
 
 /****** Hebergements And Populaires ***********/
@@ -196,7 +256,26 @@ body {
     width: 65%;
 }
 
-.hebergements-cards {}
+.hebergements-cards .card {
+
+    margin: 20px;
+}
+
+.hebergements-cards img {
+
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.hebergements-cards .card-content {
+    width: 100%;
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
 
 /****** Populaires ***********/
 .populaires {

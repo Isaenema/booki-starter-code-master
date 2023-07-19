@@ -25,6 +25,12 @@ body {
     box-sizing: border-box;
 }
 
+.form-title {
+
+    margin-bottom: 0;
+    font-size: 22px;
+}
+
 .section-title {
     margin: 0;
     font-size: 22px;
@@ -53,8 +59,12 @@ body {
     color: var(--main-bg-color)
 }
 
-
 .directionRow {
+
+    display: flex
+}
+
+.directionRowBetween {
 
     display: flex;
     justify-content: space-between;
@@ -62,7 +72,6 @@ body {
 }
 
 /* header */
-
 
 
 .logoAlign {
@@ -103,13 +112,70 @@ body {
 
 .formulaire input {
 
-    height: 60px;
+    font-weight: bold;
+    font-size: 18px;
 }
 
-.rounded {
+.input-icons i {
 
-    border: 3px solid;
-    border-radius: 20px;
+    position: absolute;
+    color: black;
+
+}
+
+.input-icons {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputSubmit {
+
+    width: 132px;
+    height: 49px;
+    background-color: var(--main-color);
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    color: white;
+    border: hidden;
+}
+
+.inputText {
+
+    width: 195px;
+    height: 43px;
+    border: solid 2px;
+    border-color: var(--main-bg-color);
+}
+
+.inputLocalisation {
+
+    width: 50px;
+    height: 49px;
+    border: solid 2px;
+    border-color: var(--main-bg-color);
+    background-color: var(--main-bg-color);
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+}
+
+/* Filtre */
+
+.filters button {
+
+    width: 173px;
+    height: 50px;
+    margin-left: 16px;
+    background-color: white;
+    border: solid 3px;
+    border-color: var(--main-bg-color);
+    border-radius: 24px;
+}
+
+.filters content {
+
+    font-weight: bold;
 }
 
 /****** Hebergements And Populaires ***********/

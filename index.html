@@ -16,7 +16,7 @@
 
 <body>
     <div class="main-container">
-        <header class="directionRow">
+        <header class="directionRowBetween">
             <div class="logoAlign">
                 <img src="./images/logo/Booki.png" alt="Logo Booki" class="logo">
             </div>
@@ -38,15 +38,36 @@
             <!-- Formulaire -->
 
             <section>
-                <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
+                <h1 class="form-title">Trouvez votre hébergement pour des vacances de rêve</h1>
                 <p>En plein centre-ville ou en pleine nature</p>
                 <form method="get" action="" class="formulaire">
-                    <div class="rounded">
-                        <span class="fa-solid fa-location-dot" style="color: #000000;"></span>
-                        <input type="text" name="lieu" id="lieu" placeholder="Lieu de rêve">
-                        <input type="submit" value="Rechercher">
+                    <div class="input-icons">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <input type="button" class="inputLocalisation">
                     </div>
+                    <input type="text" name="lieu" id="lieu" placeholder="Lieu de rêve" class="inputText">
+                    <input type="submit" value="Rechercher" class="inputSubmit">
                 </form>
+
+                <!-- boutons filtres -->
+
+                <div class="filters directionRow">
+                    <p>
+                        Filtres
+                    </p>
+                    <button>
+
+                    </button>
+                    <button>
+
+                    </button>
+                    <button>
+
+                    </button>
+                    <button>
+
+                    </button>
+                </div>
             </section>
 
             <!-- Section hebergements -->

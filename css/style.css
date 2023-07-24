@@ -45,6 +45,10 @@ body {
   font-size: 16px;
 }
 
+.card-subtitle {
+  font-size: 15px;
+}
+
 .euro {
   font-weight: 700;
 }
@@ -82,6 +86,11 @@ body {
   border-top: 2px solid;
   border-color: var(--main-color);
   color: var(--main-color);
+}
+
+.decorationNone {
+  color: black;
+  text-decoration: none;
 }
 
 /* Form */
@@ -267,7 +276,7 @@ body {
   margin-top: 4px;
 }
 
-.hebergements h4 {
+.hebergements h3 {
   font-size: 18px;
   margin-bottom: 0px;
   margin-top: 18px;
@@ -316,6 +325,44 @@ body {
 
 .populaires-cards .card-rating {
   margin-bottom: 5px;
+}
+
+/****** Activités ***********/
+.activites {
+  padding: 30px;
+}
+
+.activites-title {
+  margin-top: 30px;
+  font-size: 22px;
+}
+
+.activites-cards .card {
+  margin: 16px;
+  width: 100%;
+  padding: 0 !important;
+}
+
+.activites-cards img {
+  height: 372px;
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.activites-cards .card-content {
+}
+
+.activites-cards .card-title {
+  margin: 15px;
+}
+
+.article1 {
+  margin-left: 0px !important;
+}
+
+.article4 {
+  margin-right: 0px !important;
 }
 
 /* Le code ci-dessous correspond à la version responsive uniquement */

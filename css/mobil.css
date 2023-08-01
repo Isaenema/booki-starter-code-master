@@ -1,0 +1,75 @@
+/* Small devices (phones, less than 768px) */
+@media (max-width: 767.98px) {
+
+    /* MAIN
+    .main-container {
+        
+        padding: 0;
+    }
+    
+    */
+
+/* FILTERS */
+
+    .filters-button {
+
+        flex-wrap: wrap;
+    }
+
+    .filters-button button {
+
+        margin-bottom: 18px;
+        margin-left: 4px;
+        margin-right: 14px;
+    }
+
+    .filters p {
+
+        font-size: 15px;
+    }
+
+    .filters button {
+
+        width: 155px;
+    }
+
+/* POPULAIRES */
+    .hebergements-and-populaires {
+
+        flex-direction: column-reverse;
+    }
+
+    .populaires-cards {
+
+        flex-direction: column;
+    }
+
+    .populaires-cards .card {
+        width: 100%;
+    }
+/* HEBERGEMENTS */
+
+    .hebergements {
+
+        background-color: white !important;
+    }
+
+    .cards-column {
+
+        flex-direction: column;
+    }
+
+/* ACTIVITES */
+
+    .activites-cards {
+
+        flex-direction: column;
+    }
+
+    /* FOOTER */
+
+    footer {
+        
+        flex-direction: column;
+    }
+  }

@@ -18,6 +18,8 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/tablet.css" />
+    <link rel="stylesheet" href="./css/mobil.css" />
   </head>
 
   <body>
@@ -65,23 +67,27 @@
           <!-- boutons filtres -->
 
           <div class="filters directionRow">
-            <p>Filtres</p>
-            <button type="submit" class="buttonHighlight">
-              <i class="fa-solid fa-money-bill-wave fa-lg"></i>
-              <p>Économique</p>
-            </button>
-            <button type="submit" class="buttonHighlight">
-              <i class="fa-solid fa-person fa-lg"></i>
-              <p>Familiale</p>
-            </button>
-            <button type="submit" class="buttonHighlight">
-              <i class="fa-solid fa-heart fa-lg"></i>
-              <p>Romantique</p>
-            </button>
-            <button type="submit" class="buttonHighlight">
-              <i class="fa-solid fa-fire fa-lg"></i>
-              <p>Nos pépites</p>
-            </button>
+            <div class="filters-title">
+              <h3>Filtres</h3>
+            </div>
+            <div class="filters-button directionRow">
+              <button type="submit" class="buttonHighlight">
+                <i class="fa-solid fa-money-bill-wave fa-lg"></i>
+                <p>Économique</p>
+              </button>
+              <button type="submit" class="buttonHighlight">
+                <i class="fa-solid fa-person fa-lg"></i>
+                <p>Familiale</p>
+              </button>
+              <button type="submit" class="buttonHighlight">
+                <i class="fa-solid fa-heart fa-lg"></i>
+                <p>Romantique</p>
+              </button>
+              <button type="submit" class="buttonHighlight">
+                <i class="fa-solid fa-fire fa-lg"></i>
+                <p>Nos pépites</p>
+              </button>
+            </div>
           </div>
           <div class="directionRow infos-logement">
             <button>
@@ -99,50 +105,82 @@
               Hébergements à Marseille
             </h2>
             <div class="hebergements-cards">
-              <div class="directionRow">
+              <div class="cards-column directionRow">
                 <article class="card">
-                  <img src="./images/hebergements/fred-kleber.jpg" alt="" />
-                  <div class="card-content">
-                    <div class="card-txt">
-                      <h4 class="card-title">Hôtel du port</h4>
-                      <p class="card-subtitle">
-                        Nuit à partir de 52<span class="euro">€</span>
-                      </p>
+                  <a href="#">
+                    <img src="./images/hebergements/fred-kleber.jpg" alt="" />
+                    <div class="card-content">
+                      <div class="card-txt">
+                        <h4 class="card-title">Hôtel du port</h4>
+                        <p class="card-subtitle">
+                          Nuit à partir de 52<span class="euro">€</span>
+                        </p>
+                      </div>
+                      <div class="card-rating">
+                        <i
+                          class="fa-xs fa-solid fa-star"
+                          aria-hidden="true"
+                        ></i>
+                        <i
+                          class="fa-xs fa-solid fa-star"
+                          aria-hidden="true"
+                        ></i>
+                        <i
+                          class="fa-xs fa-solid fa-star"
+                          aria-hidden="true"
+                        ></i>
+                        <i
+                          class="fa-xs fa-solid fa-star"
+                          aria-hidden="true"
+                        ></i>
+                        <i
+                          class="fa-xs fa-solid fa-star neutralStar"
+                          aria-hidden="true"
+                        ></i>
+                        <span class="sr-only">Note de 4 sur 5</span>
+                      </div>
                     </div>
-                    <div class="card-rating">
-                      <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                      <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                      <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                      <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                      <i
-                        class="fa-xs fa-solid fa-star neutralStar"
-                        aria-hidden="true"
-                      ></i>
-                      <span class="sr-only">Note de 4 sur 5</span>
-                    </div>
-                  </div>
+                  </a>
                 </article>
+
                 <article class="card">
-                  <img src="./images/hebergements/febrian-zakaria.jpg" alt="" />
-                  <div class="card-content">
-                    <div class="card-txt">
-                      <h4 class="card-title">Hôtel chez Hamina</h4>
-                      <p class="card-subtitle">
-                        Nuit à partir de 96<span class="euro">€</span>
-                      </p>
+                  <a href="#">
+                    <img
+                      src="./images/hebergements/febrian-zakaria.jpg"
+                      alt=""
+                    />
+                    <div class="card-content">
+                      <div class="card-txt">
+                        <h4 class="card-title">Hôtel chez Hamina</h4>
+                        <p class="card-subtitle">
+                          Nuit à partir de 96<span class="euro">€</span>
+                        </p>
+                      </div>
+                      <div class="card-rating">
+                        <i
+                          class="fa-xs fa-solid fa-star"
+                          aria-hidden="true"
+                        ></i>
+                        <i
+                          class="fa-xs fa-solid fa-star"
+                          aria-hidden="true"
+                        ></i>
+                        <i
+                          class="fa-xs fa-solid fa-star"
+                          aria-hidden="true"
+                        ></i>
+                        <i
+                          class="fa-xs fa-solid fa-star"
+                          aria-hidden="true"
+                        ></i>
+                        <i
+                          class="fa-xs fa-solid fa-star neutralStar"
+                          aria-hidden="true"
+                        ></i>
+                        <span class="sr-only">Note de 4 sur 5</span>
+                      </div>
                     </div>
-                    <div class="card-rating">
-                      <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                      <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                      <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                      <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                      <i
-                        class="fa-xs fa-solid fa-star neutralStar"
-                        aria-hidden="true"
-                      ></i>
-                      <span class="sr-only">Note de 4 sur 5</span>
-                    </div>
-                  </div>
+                  </a>
                 </article>
                 <article class="card">
                   <img src="./images/hebergements/reisetopia.jpg" alt="" />
@@ -167,7 +205,7 @@
                   </div>
                 </article>
               </div>
-              <div class="directionRow">
+              <div class="cards-column directionRow">
                 <article class="card">
                   <img src="./images/hebergements/annie-spratt.jpg" alt="" />
                   <div class="card-content">
@@ -239,7 +277,7 @@
             <h3>Afficher plus</h3>
           </section>
 
-          <!-- Section populaires déja ecrite -->
+          <!-- Section populaires -->
 
           <section class="populaires">
             <div class="populaires-title">
@@ -332,41 +370,47 @@
         <!-- Activités -->
         <section class="activites">
           <h2 class="activites-title" id="activites">Activités à Marseille</h2>
-          <div class="activites-cards">
-            <div class="directionRowBetween">
-              <article class="card article1">
+          <div class="activites-cards directionRowBetween">
+            <article class="card article1">
+              <a href="">
                 <img src="./images/activites/reno-laithienne.jpg" alt="" />
                 <div class="card-content">
                   <div class="card-txt">
                     <h4 class="card-title">Vieux-Port</h4>
                   </div>
                 </div>
-              </article>
-              <article class="card">
+              </a>
+            </article>
+            <article class="card">
+              <a href="#">
                 <img src="./images/activites/paul-hermann.jpg" alt="" />
                 <div class="card-content">
                   <div class="card-txt">
                     <h4 class="card-title">Fort de Pomègues</h4>
                   </div>
                 </div>
-              </article>
-              <article class="card">
+              </a>
+            </article>
+            <article class="card">
+              <a href="#">
                 <img src="./images/activites/kilyan-sockalingum.jpg" alt="" />
                 <div class="card-content">
                   <div class="card-txt">
                     <h4 class="card-title">Parc national des Calanques</h4>
                   </div>
                 </div>
-              </article>
-              <article class="card article4">
+              </a>
+            </article>
+            <article class="card article4">
+              <a href="#">
                 <img src="./images/activites/florian-wehde.jpg" alt="" />
                 <div class="card-content">
                   <div class="card-txt">
                     <h4 class="card-title">Notre-Dame-de-la-Garde</h4>
                   </div>
                 </div>
-              </article>
-            </div>
+              </a>
+            </article>
           </div>
         </section>
       </main>

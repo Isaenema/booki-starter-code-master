@@ -150,6 +150,7 @@ a {
   width: 195px;
   height: 43px;
   border: solid 2px;
+  border-right: 0px;
   border-color: var(--main-bg-color);
 }
 

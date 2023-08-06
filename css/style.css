@@ -148,7 +148,7 @@ a {
 .inputText {
   width: 195px;
   height: 43px;
-  border: solid 2px;
+  border: solid 1px;
   border-right: 0px;
   border-color: var(--main-bg-color);
 }
@@ -156,7 +156,7 @@ a {
 .inputLocalisation {
   width: 50px;
   height: 49px;
-  border: solid 2px;
+  border: solid 1px;
   border-color: var(--main-bg-color);
   background-color: var(--main-bg-color);
   border-top-left-radius: 16px;

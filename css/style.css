@@ -87,12 +87,29 @@ a {
   margin-right: 68px;
 }
 
-.contentBlue:hover {
-  border-top: 2px solid;
-  border-color: var(--main-color);
-  color: var(--main-color);
-  margin-top: -8px;
+.contentBlue {
+
+    padding-left: 18px;
+    padding-right:18px;
 }
+
+
+.contentBlue:hover {
+    border-top: 2px solid;
+    border-color: var(--main-color);
+    color: var(--main-color);
+    margin: 0px;
+    
+}
+
+
+
+.contentBlue a:hover {
+    border-color: var(--main-color);
+    color: var(--main-color);
+    margin: 0px;
+}
+
 
 .decorationNone {
   color: black;
@@ -180,6 +197,23 @@ a {
 }
 
 /* Filtre */
+
+.filters {
+
+display: flex;
+flex-direction: row;
+
+}
+
+.filters-button {
+
+    display: flex;
+}
+
+.filters-button .group {
+
+    display: flex;
+}
 
 .filters button {
   height: 50px;

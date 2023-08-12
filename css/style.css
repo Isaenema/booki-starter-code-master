@@ -89,8 +89,8 @@ a {
 
 .contentBlue {
 
-    padding-left: 18px;
-    padding-right:18px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 
@@ -154,9 +154,12 @@ a {
   align-items: center;
 }
 
-.inputSubmit {
-  width: 132px;
-  height: 49px;
+.submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 132px;
+    height: 49px;
   background-color: var(--main-color);
   border-top-right-radius: 16px;
   border-bottom-right-radius: 16px;
@@ -164,18 +167,33 @@ a {
   font-weight: bold;
   color: white;
   border: hidden;
+
 }
 
-.inputSubmit p {
-  margin: 0px;
+.inputSubmitSeek {
+  
+    font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background-color: var(--main-color);
+  border: none;
 }
 
-.inputSubmit i {
+
+.inputSubmitGlass {
   display: none;
 }
 
-.inputSubmit:hover {
-  cursor: pointer;
+.submit:hover {
+    cursor: pointer;
+  }
+
+.inputSubmitSeek:hover {
+    cursor: pointer;
+}
+
+.inputSubmitGlass:hover {
+    cursor: pointer;
 }
 
 .inputText {

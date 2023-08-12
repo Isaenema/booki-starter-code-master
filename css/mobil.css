@@ -65,7 +65,7 @@
     width: 78%;
   }
 
-  .inputSubmit {
+  .submit {
     width: 49px;
     height: 49px;
     border-radius: 16px;
@@ -75,12 +75,19 @@
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   }
 
-  .inputSubmit  {
+  .inputSubmitSeek {
     display: none;
   }
 
-  .inputSubmit i {
+  .inputSubmitGlass  {
     display: contents;
+  }
+
+  .inputSubmitGlass i {
+
+    font-size: 18px;
+  font-weight: bold;
+  color: white;
   }
 
   /* FILTERS */
@@ -180,6 +187,7 @@
     display: flex;
     flex-direction: column !important;
     align-items: center;
+    background-color: var(--main-bg-color);
   }
 
   footer div {

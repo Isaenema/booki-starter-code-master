@@ -27,14 +27,12 @@
     color: var(--main-color);
   }
 
-    .contentBlue a:hover {
-
-        border-top: 0px;
-        margin: 0px;
-    }
+  .contentBlue a:hover {
+    border-top: 0px;
+    margin: 0px;
+  }
 
   .contentBlue {
-
     width: 50%;
     display: flex;
     justify-content: center;
@@ -43,13 +41,11 @@
   }
 
   .directionRow {
-
     width: 100%;
     justify-content: center;
   }
 
   .margin-right {
-
     margin-right: 0px;
   }
 
@@ -61,7 +57,6 @@
   }
 
   .inputText {
-
     width: 78%;
   }
 
@@ -79,15 +74,14 @@
     display: none;
   }
 
-  .inputSubmitGlass  {
+  .inputSubmitGlass {
     display: contents;
   }
 
   .inputSubmitGlass i {
-
     font-size: 18px;
-  font-weight: bold;
-  color: white;
+    font-weight: bold;
+    color: white;
   }
 
   /* FILTERS */

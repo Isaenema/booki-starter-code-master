@@ -88,28 +88,22 @@ a {
 }
 
 .contentBlue {
-
-    padding-left: 40px;
-    padding-right: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
-
 
 .contentBlue:hover {
-    border-top: 2px solid;
-    border-color: var(--main-color);
-    color: var(--main-color);
-    margin: 0px;
-    
+  border-top: 2px solid;
+  border-color: var(--main-color);
+  color: var(--main-color);
+  margin: 0px;
 }
-
-
 
 .contentBlue a:hover {
-    border-color: var(--main-color);
-    color: var(--main-color);
-    margin: 0px;
+  border-color: var(--main-color);
+  color: var(--main-color);
+  margin: 0px;
 }
-
 
 .decorationNone {
   color: black;
@@ -155,11 +149,11 @@ a {
 }
 
 .submit {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 132px;
-    height: 49px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 132px;
+  height: 49px;
   background-color: var(--main-color);
   border-top-right-radius: 16px;
   border-bottom-right-radius: 16px;
@@ -167,33 +161,30 @@ a {
   font-weight: bold;
   color: white;
   border: hidden;
-
 }
 
 .inputSubmitSeek {
-  
-    font-size: 18px;
+  font-size: 18px;
   font-weight: bold;
   color: white;
   background-color: var(--main-color);
   border: none;
 }
 
-
 .inputSubmitGlass {
   display: none;
 }
 
 .submit:hover {
-    cursor: pointer;
-  }
+  cursor: pointer;
+}
 
 .inputSubmitSeek:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .inputSubmitGlass:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .inputText {
@@ -217,20 +208,16 @@ a {
 /* Filtre */
 
 .filters {
-
-display: flex;
-flex-direction: row;
-
+  display: flex;
+  flex-direction: row;
 }
 
 .filters-button {
-
-    display: flex;
+  display: flex;
 }
 
 .filters-button .group {
-
-    display: flex;
+  display: flex;
 }
 
 .filters button {
